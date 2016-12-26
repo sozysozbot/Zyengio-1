@@ -28,7 +28,7 @@ Enter Ctrl+` to choose the imput method. Enter Ctrl+Shift+` to deploy the data i
 ３　輸入法　入力法　How to input
 
 打拼音，按上下鍵擇字，以空格鍵確之。
-以按「f」「v」「w」鍵能入 ⟨ġ⟩ ⟨ŋ⟩ ⟨ə⟩ 。按「r」「x」「h」鍵於音節末入平聲、上聲、去聲。
+以按「v」「w」鍵能入 ⟨ŋ⟩ ⟨ə⟩ 。按「r」「x」「h」鍵於音節末入平聲、上聲、去聲。
 
 請閲讀 https://github.com/rime/home/wiki/UserGuide。
 
