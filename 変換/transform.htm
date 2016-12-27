@@ -1,0 +1,24 @@
+<meta charset="UTF-8">
+<script src="dat.js"></script>
+<script>
+var ans = {};
+var order = [];
+var a = dat;
+var j=0;
+for(var i=0;i<a.length;i++) {
+	if(ans[a[i][0]]) {
+		ans[a[i][0]] += "/"+a[i][1];
+	} else {
+		ans[a[i][0]] = a[i][1];
+		order[j++] = a[i][0];
+	}
+}
+
+var txt = "";
+for(var i=0; i<j; i++) {
+	txt += order[i] + "," + ans[order[i]] + "<br>";
+}
+</script>
+<body onload='document.getElementById("res").innerHTML = txt;
+'></body>
+<div id="res"></div></div>
